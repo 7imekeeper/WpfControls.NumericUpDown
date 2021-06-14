@@ -3,6 +3,11 @@
   <PropertyGroup>
 		<TargetFrameworks>netcoreapp3.1;net5.0-windows</TargetFrameworks>
     <UseWPF>true</UseWPF>
+    <RootNamespace>WpfControls</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\WpfControls.Core.csproj" />
+  </ItemGroup>
 
 </Project>
